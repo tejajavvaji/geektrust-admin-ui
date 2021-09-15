@@ -1,0 +1,62 @@
+.test {
+  height: 350px;
+  width: 400px;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+
+  border: 3px solid #7cb342;
+}
+
+.display {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameInput,
+.mailInput,
+.roleInput {
+  height: 25px;
+  margin-top: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.nameLabel,
+.mailLabel,
+.roleLabel {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.submitBtn,
+.closeBtn {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  align-self: center;
+  margin-top: 20px;
+  background-color: #7cb342;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.closeBtn {
+  margin-left: 15px;
+  background-color: red;
+}
+
+.closeBtn:hover,
+.submitBtn:hover {
+  cursor: pointer;
+}
