@@ -1,0 +1,56 @@
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteBtn {
+  height: 35px;
+  width: 120px;
+  background-color: #ff5171;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.deleteBtn:hover {
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem,
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: 25px;
+  padding: 3px;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f1f8e9;
+  color: black;
+}
+
+.listItem:hover,
+.arrowContainer:hover {
+  cursor: pointer;
+  background-color: #7cb342;
+}
+
+.barContainer {
+  display: flex;
+  align-items: center;
+}
+
+.listItemSelected {
+  background-color: #7cb342;
+}

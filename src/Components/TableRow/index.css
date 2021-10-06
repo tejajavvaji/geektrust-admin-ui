@@ -1,0 +1,18 @@
+.editIcon,
+.deleteIcon {
+  font-size: 18px;
+  margin-left: 15px;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.deleteIcon {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.deleteIcon:hover,
+.editIcon:hover {
+  /* color: rgba(255, 0, 0); */
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

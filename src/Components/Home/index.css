@@ -1,0 +1,50 @@
+.mainContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.table,
+.input {
+  max-width: 1200px;
+  width: 80vw;
+  margin-top: 20px;
+}
+
+.filter {
+  filter: blur(10px);
+}
+
+.input {
+  height: 30px;
+  margin: 2px;
+  border: 2px solid #7cb342;
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+.tableHead {
+  text-align: left;
+  background-color: #7cb342;
+  font-size: 22px;
+}
+/* Giving different color to even rows */
+tr:nth-of-type(even) {
+  background-color: #f1f8e9;
+}
+
+table,
+td,
+th {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #019875;
+  margin: 0;
+  padding: 10px;
+  border-collapse: collapse;
+}
